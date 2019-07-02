@@ -1,0 +1,26 @@
+# "Low Health" config file
+# Specify sounds to play at a given health at a specified rate
+
+[[sounds]]
+# Sound identifier, anything which is also accessible by the "playsound" command (required)
+sound = "minecraft:block.note_block.bell"
+# Health level required to initiate sound (required)
+health = 2.0
+# Volume to play sound (optional; default = 1.0)
+volume = 1.0
+# Pitch to play sound (optional; default = 1.0)
+pitch = 2.0
+# Time in ticks between sound repetitions (optional; default = 10)
+rate = 5
+
+[[sounds]]
+# Sound identifier, anything which is also accessible by the "playsound" command (required)
+sound = "minecraft:block.note_block.bell"
+# Health level required to initiate sound (required)
+health = 6.0
+# Volume to play sound (optional; default = 1.0)
+volume = 0.7
+# Pitch to play sound (optional; default = 1.0)
+pitch = 1.0
+# Time in ticks between sound repetitions (optional; default = 10)
+rate = 10
